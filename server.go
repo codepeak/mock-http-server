@@ -13,7 +13,7 @@ func logHandler(w http.ResponseWriter, r *http.Request) {
 
 // mockHandler responds with "ok" as the response body
 func mockHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "ok\n")
+	fmt.Fprintf(w, "0: Accepted for delivery\n")
 }
 
 // rootHandler used to process all inbound HTTP requests
